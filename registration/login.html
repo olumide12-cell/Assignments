@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+  
+
+</head>
+<body>
+<main>
+<div class="shapesss">
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+<form class="form" name="theForms" method="post" action="login.html" onsubmit=" return validate()">
+    <p id="error"></p>
+    <h1>Welcome Friend!</h1>
+    <h2>Please Login</h2>
+    <div class="img">
+    <img src="img/user1.png" alt="" style="border-radius: 50px;">
+    </div>
+    
+    <label for="username">Username</label>
+    <input type="text" placeholder="Enter your email or username" id="username">
+    
+    
+    <label for="username">Password</label>
+    <input type="text" placeholder="Please enter a valid password" id="password">
+    <button type="submit" value="Login" onclick="validate()" id="submit">Log In</button>
+
+    <div class="check1">
+    <p>Forgot your password?</p>
+    <a href="http://google.com">click me</a>
+    </div>
+    
+
+    <div class="media">
+        <div class="google"><i class="fab fa-google"><a href="https://www.google.com">Google</a></i></div>
+        <div class="linkedin" ><i class="fab fa-linkedin"><a href="https://www.linkedin.com">Linkedin</a></i></div>
+      </div>
+</form>
+
+</main> 
+</body>
+
+<script>
+    
+function validate(){
+var username = document.querySelector('#username');
+username.addEventListener('keyup', function(){
+    var u_times = document.querySelector('.u_times');
+    var u_check = document.querySelector('.u_check');
+    if (username.value.length == 0 || username.value.length < 6) {
+        username.style.border = '1px solid red';
+        return false;
+    }else {
+        username.style.border = '1px solid green';
+        
+    }
+})
+
+var password = document.querySelector('#password');
+password.addEventListener('keyup', function(){
+    var p_times = document.querySelector('.p_times');
+    var p_check = document.querySelector('.p_check');
+    if (password.value.length == 0 || password.value.length < 8) {
+        password.style.border = '1px solid red';
+        return false;
+    }else {
+        password.style.border = '1px solid green';
+        
+    }
+})
+    if (username.value == 0 || username.value.lenght < 6) {
+        document.getElementById('error').innerHTML = 'Please kindly type in the correct entry!';
+        return false;
+    } else if (password.value == 0 || password.value.length < 8) {
+        document.getElementById('error').innerHTML = 'Please kindly type in the correct entry!';
+        return false;
+    } else {
+        window.location.assign("success.html");
+        alert('You are in Successfully');
+
+    }
+}
+
+</script>
+</html>
