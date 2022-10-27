@@ -5,6 +5,6 @@
 * - [Css Grid and Layout](https://github.com/olumide12-cell/Assignments/tree/week-3/grids%20an%20layout)
 
 The Portfolio consist of my information as well as the link to my social handles
-The Grid and layout consist of css designs.
+ while the Grid and layout consist of css designs.
 
 
