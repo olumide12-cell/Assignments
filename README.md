@@ -13,10 +13,10 @@ Create a simple [Portfolio](https://github.com/olumide12-cell/Assignments/tree/w
 * Services 
 * Hobbies, priorities, and other skills
 
-* Somewhere on the page where it makes sense visually, add a photo of yourself.
-=> Name
-=> Email
-=> Message
+Somewhere on the page where it makes sense visually, add a photo of yourself.
+*Name
+*Email
+*Message
 Hint Searching for designs online will give you a better understanding of a beautiful design.
 
 Submission mode Replit URL
