@@ -1,10 +1,21 @@
-# Week 3 Task
+# Week 4 Task.
 
-## This branch consist of week 3 task and they are: 
-* - [Portfolio](https://github.com/olumide12-cell/Assignments/tree/week-3/grids%20an%20layout)
-* - [Registration and login page](https://github.com/olumide12-cell/Assignments/tree/week-3/registration)
+## [Week 4 Task](https://github.com/olumide12-cell/Assignments/tree/week-4) > CSS cont.
+A) Recreate a [3-column card design](https://github.com/olumide12-cell/Assignments/tree/week-4) using CSS Flexbox  Layout
+* This task should be on the [index.html](https://github.com/olumide12-cell/Assignments/blob/week-4/index.html) file.
+* All the information and images needed for the design can be found in this folder here.
 
-The Portfolio consist of my information as well as the link to my social handles
- while the second folder cosist of registration and login.
+ 
+
+B) Recreate the design using CSS [Grid Layout](https://github.com/olumide12-cell/Assignments/tree/week-4)  
+
+* This task should be on the [grid.html](https://github.com/olumide12-cell/Assignments/blob/week-4/grid.html) file.
+
+* You can use any background colour of your choice.
+
+
+Submission Mode: Replit url
+
+
 
 
